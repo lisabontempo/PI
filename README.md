@@ -12,7 +12,7 @@ Não podemos negar que os pais e mães de hoje tem uma vantagem em relação aos
 
 
 ### Cronograma:
-* Outubro- Tela inicial com menu e informações iniciais
-* Novembro- Abas divididas por etapa de crescimento
+* Outubro- Tela inicial contendo campo para preencher a idade da criança, e botão para consultar se a idade está dentro das aceitaveis no projeto (0 a 3 anos) e um pequeno texto de apresentação
+* Novembro- Informações psicologicas de cada idade (0 a 3 anos) 
 
 
