@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d993961430dc21c7c26561fe0eadc6350c94356">
+        <dex dex="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c50173dfa540ee7f384b34272373b1d0b8252123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bb4f035a6d3df261f82d128fca9c0669c4f1e2bc\classes.dex" />
+    </item>
+
+</items>
