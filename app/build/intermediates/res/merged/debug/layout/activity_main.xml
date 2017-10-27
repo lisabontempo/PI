@@ -45,12 +45,13 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/edtIdade"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="160dp"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number"
+            android:textAlignment="center" />
 
         <Button
             android:layout_marginTop="50dp"
@@ -60,7 +61,9 @@
             android:layout_height="60dp"
             android:text="Iniciar Aprendizagem"
             tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="372dp" />
+            tools:layout_editor_absoluteY="372dp"
+            android:onClick="pegarIdade"
+            />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
