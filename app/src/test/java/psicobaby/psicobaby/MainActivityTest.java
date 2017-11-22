@@ -13,27 +13,17 @@ import static junit.framework.Assert.*;
 public class MainActivityTest {
 
     @Test
+    public void deveriaRetornarBemVindoBebeQuandoIdadeIgual1(){
 
-    public void deveriaRetornarQuandoIdadeIgual0(){
-
-        String esperada = "Bebê com 0 anos de idade";
+        String esperada = "Bem vindo bebe";
+        String naoEsperada = "erro";
         MainActivity m = new MainActivity();
-        String retornada = m.mensagemZeroAnos("0");
+        String retornada = m.mensagemBebe("1");
+        String erro = m.mensagemBebe("0");
+
 
         assertEquals(retornada, esperada);
 
+        assertEquals(erro, naoEsperada);
     }
-
-    @Test
-    public void deveriaRetornarQuandoIdadeIgual1(){
-
-        String esperada = "Bebê com 1 ano de idade";
-        MainActivity m = new MainActivity();
-        String retornada = m.mensagemZeroAnos("1");
-
-        assertEquals(retornada, esperada);
-
-    }
-
-
 }

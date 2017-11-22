@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity{
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(getApplicationContext(), mensagemZeroAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), mensagemBebe(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
 
                     }
                 });
@@ -53,15 +53,13 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-    public String mensagemZeroAnos(String idade) {
+    public String mensagemBebe(String idade) {
 
 
-        if (idade.equals("0")) {
-            return "Bebê com 0 anos de idade";
-        }
 
         if (idade.equals("1")) {
-            return "Bebê com 1 ano de idade";
+            return "Bem vindo bebe";
+
         }
 
         else
