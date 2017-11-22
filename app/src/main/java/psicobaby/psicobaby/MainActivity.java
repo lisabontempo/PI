@@ -9,10 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     public EditText edtIdade;
-
 
 
     @Override
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(getApplicationContext(), "Dicas para crianças de " + edtIdade.getText() + "anos", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), mensagemZeroAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
 
                     }
                 });
@@ -50,20 +49,27 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
-
-//        public int teste(){
-//        if((edtIdade.getText().toString()=="0")||(edtIdade.getText().toString()=="")||(edtIdade.getText().toString()=="2"){
-//            return 0;
-//        }
-
-//        else{
-//            return 1;
-//        }
-
     }
 
 
+
+    public String mensagemZeroAnos(String idade) {
+
+
+        if (idade.equals("0")) {
+            return "Bebê com 0 anos de idade";
+        }
+
+        if (idade.equals("1")) {
+            return "Bebê com 1 ano de idade";
+        }
+
+        else
+            return "erro";
+
+
     }
+}
 
 
 

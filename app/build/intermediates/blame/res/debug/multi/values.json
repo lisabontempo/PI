@@ -347,7 +347,14 @@
                     "endOffset": 2062
                 },
                 "from": {
-                    "file": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
                 }
             },
             {
