@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\Androi
 		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Fernando\.android\build-cache\fe5f4b546e4515bea8ce8337d20ffeae564df651\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Fernando\.android\build-cache\2e5aa7c0f2756fa27f50c127e628116408a38ada\output\AndroidManifest.xml:29:5-20
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:16:27-74
+activity#psicobaby.psicobaby.ZeroAnos
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:19:19-43
 uses-sdk
 INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:21:5-23:78

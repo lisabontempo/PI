@@ -1,6 +1,8 @@
 package psicobaby.psicobaby;
 
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity{
         Button ok = (Button) findViewById(R.id.exibirAlerta);
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 AlertDialog.Builder alerta = new AlertDialog.Builder(MainActivity.this);
                 alerta.setTitle("Vamos começar!" + edtIdade.getText());
                 alerta.setIcon(R.mipmap.ic_launcher);
@@ -45,10 +47,18 @@ public class MainActivity extends AppCompatActivity{
 
                 AlertDialog alertDialog = alerta.create();
                 alertDialog.show();
+
+                if (edtIdade.getText().toString().equals("0")){
+                Intent intent0 = new Intent(getApplicationContext(), ZeroAnos.class);
+                startActivity(intent0);}
             }
 
 
+
+
         });
+
+
     }
 
 
@@ -58,6 +68,9 @@ public class MainActivity extends AppCompatActivity{
 
         if (idade.equals("0")) {
             return "Bebê com 0 anos de idade";
+
+
+
         }
 
         if (idade.equals("1")) {
@@ -73,6 +86,16 @@ public class MainActivity extends AppCompatActivity{
 
 
     }
+
+
+    public void mudarTela0(View view){
+        Intent intent0 = new Intent(getApplicationContext(),ZeroAnos.class);
+        startActivity(intent0);
+
+    }
+
+
+
 }
 
 

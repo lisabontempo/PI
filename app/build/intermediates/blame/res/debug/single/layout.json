@@ -92,6 +92,10 @@
         "source": "C:\\Users\\Fernando\\.android\\build-cache\\664c684da84a20b3fb2511c2f499d97db94a1454\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zero_anos.xml",
+        "source": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\layout\\activity_zero_anos.xml"
+    },
+    {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Fernando\\.android\\build-cache\\664c684da84a20b3fb2511c2f499d97db94a1454\\output\\res\\layout\\abc_screen_simple.xml"
     },
