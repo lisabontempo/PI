@@ -65,7 +65,7 @@
             android:text="Iniciar Aprendizagem"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="372dp"
-            android:onClick="mudarTela0"
+            android:onClick=""
             />
     </LinearLayout>
 

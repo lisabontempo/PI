@@ -23,37 +23,15 @@ public class MainActivity extends AppCompatActivity{
 
         edtIdade = (EditText) findViewById(R.id.edtIdade);
 
-
         Button ok = (Button) findViewById(R.id.exibirAlerta);
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder alerta = new AlertDialog.Builder(MainActivity.this);
-                alerta.setTitle("Vamos começar!" + edtIdade.getText());
-                alerta.setIcon(R.mipmap.ic_launcher);
-                alerta.setMessage("Agora você terá acesso a dicas desenvolvidas para a idade do seu bebê");
-                alerta.setCancelable(false);
-                alerta.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                if((edtIdade.getText().toString().equals("0"))||(edtIdade.getText().toString().equals("1"))||(edtIdade.getText().toString().equals("2")))
+                ProximaTela(edtIdade.getText().toString());
+                CaixaMensagem();
 
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(getApplicationContext(), mensagemAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
-
-                    }
-                });
-
-
-                AlertDialog alertDialog = alerta.create();
-                alertDialog.show();
-
-                if (edtIdade.getText().toString().equals("0")){
-                Intent intent0 = new Intent(getApplicationContext(), ZeroAnos.class);
-                startActivity(intent0);}
             }
-
-
-
-
         });
 
 
@@ -61,14 +39,11 @@ public class MainActivity extends AppCompatActivity{
 
 
 
+
+
     public String mensagemAnos(String idade) {
-
-
         if (idade.equals("0")) {
             return "Bebê com 0 anos de idade";
-
-
-
         }
 
         if (idade.equals("1")) {
@@ -78,15 +53,42 @@ public class MainActivity extends AppCompatActivity{
         if (idade.equals("2")) {
             return "Bebê com 2 anos de idade";
         }
-
         else
             return "Idade não permitida";
-
-
     }
 
 
+    public void ProximaTela(String idade) {
+        if (idade.equals("0")) {
+            Intent intent0 = new Intent(getApplicationContext(), ZeroAnos.class);
+            startActivity(intent0);
+        }
+        if (idade.equals("1")) {
+            Intent intent0 = new Intent(getApplicationContext(), UmAno.class);
+            startActivity(intent0);
+        }
+        if (idade.equals("2")) {
+            Intent intent0 = new Intent(getApplicationContext(), DoisAnos.class);
+            startActivity(intent0);
+        }
+    }
 
+    public void CaixaMensagem(){
+        AlertDialog.Builder alerta = new AlertDialog.Builder(MainActivity.this);
+        alerta.setTitle("Vamos começar!");
+        alerta.setIcon(R.mipmap.ic_launcher);
+        alerta.setMessage("Agora você terá acesso a dicas desenvolvidas para a idade do seu bebê");
+        alerta.setCancelable(false);
+        alerta.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(getApplicationContext(), mensagemAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
+            }
+        });
+
+        AlertDialog alertDialog = alerta.create();
+        alertDialog.show();
+    }
 
 
 
