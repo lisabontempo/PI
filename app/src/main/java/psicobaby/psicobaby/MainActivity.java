@@ -33,13 +33,11 @@ public class MainActivity extends AppCompatActivity{
                 alerta.setIcon(R.mipmap.ic_launcher);
                 alerta.setMessage("Agora você terá acesso a dicas desenvolvidas para a idade do seu bebê");
                 alerta.setCancelable(false);
-
-
                 alerta.setPositiveButton("ok", new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(getApplicationContext(), mensagemZeroAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), mensagemAnos(edtIdade.getText().toString()), Toast.LENGTH_LONG).show();
 
                     }
                 });
@@ -63,7 +61,7 @@ public class MainActivity extends AppCompatActivity{
 
 
 
-    public String mensagemZeroAnos(String idade) {
+    public String mensagemAnos(String idade) {
 
 
         if (idade.equals("0")) {
@@ -88,11 +86,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-    public void mudarTela0(View view){
-        Intent intent0 = new Intent(getApplicationContext(),ZeroAnos.class);
-        startActivity(intent0);
 
-    }
 
 
 

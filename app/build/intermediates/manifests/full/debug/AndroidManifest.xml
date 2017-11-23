@@ -27,6 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name="psicobaby.psicobaby.ZeroAnos" />
+        <activity android:name="psicobaby.psicobaby.UmAno" />
+        <activity android:name="psicobaby.psicobaby.DoisAnos" />
     </application>
 
 </manifest>

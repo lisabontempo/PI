@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Fernando\\.android\\build-cache\\664c684da84a20b3fb2511c2f499d97db94a1454\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_um_ano.xml",
+        "source": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\layout\\activity_um_ano.xml"
+    },
+    {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Fernando\\.android\\build-cache\\664c684da84a20b3fb2511c2f499d97db94a1454\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Fernando\\.android\\build-cache\\664c684da84a20b3fb2511c2f499d97db94a1454\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dois_anos.xml",
+        "source": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\layout\\activity_dois_anos.xml"
     },
     {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
