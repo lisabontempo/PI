@@ -14,21 +14,32 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity{
     public EditText edtIdade;
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle savedInstanceState)
+    {   super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         edtIdade = (EditText) findViewById(R.id.edtIdade);
-
         Button ok = (Button) findViewById(R.id.exibirAlerta);
-        ok.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                if((edtIdade.getText().toString().equals("0"))||(edtIdade.getText().toString().equals("1"))||(edtIdade.getText().toString().equals("2")))
-                ProximaTela(edtIdade.getText().toString());
-            }
-        });
-    }
+            public void onClick(View view)
+            {if((edtIdade.getText().toString().equals("0"))||(edtIdade.getText().toString().equals("1"))||
+                    (edtIdade.getText().toString().equals("2")))
+            ProximaTela(edtIdade.getText().toString());  }
+        });    }
+
+
+
+
+    public void ProximaTela(String idade){
+        if (idade.equals("0"))
+        {   Intent intent0 = new Intent(getApplicationContext(), ZeroAnos.class);
+            startActivity(intent0);}
+        if (idade.equals("1"))
+        {   Intent intent0 = new Intent(getApplicationContext(), UmAno.class);
+            startActivity(intent0);}
+        if (idade.equals("2"))
+        {   Intent intent0 = new Intent(getApplicationContext(), DoisAnos.class);
+            startActivity(intent0);} }
 
     public String mensagemAnos(final int idade) {
         if (idade==0) {
@@ -42,18 +53,10 @@ public class MainActivity extends AppCompatActivity{
         else
             return "Idade não permitida";
     }
+    public void receberNovidades(View view){
+        Intent intent0 = new Intent(getApplicationContext(), ReceberNovidades.class);
+        startActivity(intent0);
 
-
-    public void ProximaTela(String idade) {
-        if (idade.equals("0")) {
-            Intent intent0 = new Intent(getApplicationContext(), ZeroAnos.class);
-            startActivity(intent0);        }
-        if (idade.equals("1")) {
-            Intent intent0 = new Intent(getApplicationContext(), UmAno.class);
-            startActivity(intent0);        }
-        if (idade.equals("2")) {
-            Intent intent0 = new Intent(getApplicationContext(), DoisAnos.class);
-            startActivity(intent0);        }
     }
 }
 

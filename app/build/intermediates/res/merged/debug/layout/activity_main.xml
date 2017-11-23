@@ -10,15 +10,15 @@
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1"
         tools:layout_editor_absoluteX="8dp"
-        android:weightSum="1">
+        tools:layout_editor_absoluteY="8dp">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:layout_marginTop="20dp"
             android:text="Seja bem vindo(a) ao PsicoBaby!"
             android:textAlignment="center"
             android:textSize="22sp"
@@ -33,14 +33,13 @@
             android:layout_weight="0.10"
             android:text="Aqui você encontrará ótimas dicas para cuidar da saúde psicologica de sua criança, ajudando no seu desenvolvimento e tornando-a mais feliz."
             android:textAlignment="center"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="25dp"
             android:text="Digite abaixo a idade em anos do seu bebê:"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -57,16 +56,33 @@
 
         <Button
 
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="110dp"
             android:id="@+id/exibirAlerta"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="Iniciar Aprendizagem"
-            tools:layout_editor_absoluteX="105dp"
-            tools:layout_editor_absoluteY="372dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
             android:onClick=""
-            />
+            android:text="Iniciar Aprendizagem"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="372dp" />
+
+        <Button
+            android:id="@+id/receberNovidades"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="299dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.05"
+            android:background="?android:attr/windowBackground"
+            android:elevation="0dp"
+            android:onClick="receberNovidades"
+            android:text="Clique aqui para se cadastrar e receber novidades"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="372dp" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

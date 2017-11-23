@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".ZeroAnos" />
         <activity android:name=".UmAno" />
-        <activity android:name=".DoisAnos"></activity>
+        <activity android:name=".DoisAnos" />
+        <activity android:name=".ReceberNovidades" />
     </application>
 
 </manifest>

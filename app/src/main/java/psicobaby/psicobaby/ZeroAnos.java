@@ -9,7 +9,7 @@ import android.widget.Toast;
 public class ZeroAnos extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         int idade=0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zero_anos);

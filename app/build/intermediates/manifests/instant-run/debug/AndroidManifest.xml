@@ -29,6 +29,7 @@
         <activity android:name="psicobaby.psicobaby.ZeroAnos" />
         <activity android:name="psicobaby.psicobaby.UmAno" />
         <activity android:name="psicobaby.psicobaby.DoisAnos" />
+        <activity android:name="psicobaby.psicobaby.ReceberNovidades" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
