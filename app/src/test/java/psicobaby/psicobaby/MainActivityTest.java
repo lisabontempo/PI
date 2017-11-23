@@ -14,14 +14,11 @@ public class MainActivityTest {
 
     @Test
     public void deveriaRetornarQuandoIdadeIgual0(){
-
         String esperada = "Bebê com 0 anos de idade";
         MainActivity m = new MainActivity();
-        String retornada = m.mensagemAnos("0");
+        String retornada = m.mensagemAnos(0);
 
-        assertEquals(retornada, esperada);
-
-    }
+        assertEquals(retornada, esperada);    }
 
 
     @Test
@@ -29,18 +26,16 @@ public class MainActivityTest {
 
         String esperada = "Bebê com 1 ano de idade";
         MainActivity m = new MainActivity();
-        String retornada = m.mensagemAnos("1");
+        String retornada = m.mensagemAnos(1);
 
-        assertEquals(retornada, esperada);
-
-    }
+        assertEquals(retornada, esperada);    }
 
     @Test
     public void deveriaRetornarQuandoIdadeIgual2(){
 
         String esperada = "Bebê com 2 anos de idade";
         MainActivity m = new MainActivity();
-        String retornada = m.mensagemAnos("2");
+        String retornada = m.mensagemAnos(2);
 
         assertEquals(retornada, esperada);
 
@@ -51,7 +46,7 @@ public class MainActivityTest {
 
         String esperada = "Idade não permitida";
         MainActivity m = new MainActivity();
-        String retornada = m.mensagemAnos("3");
+        String retornada = m.mensagemAnos(3);
 
         assertEquals(retornada, esperada);
 
