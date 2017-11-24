@@ -6,21 +6,90 @@
     android:layout_height="match_parent"
     tools:context="psicobaby.psicobaby.UmAnoActivity">
 
-    <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         tools:layout_editor_absoluteX="8dp"
-        android:weightSum="1">
+        tools:layout_editor_absoluteY="8dp">
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp"
+            android:weightSum="1">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Um ano!"
-            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="1 ANO DE IDADE"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:lineSpacingExtra="2sp"
+                android:text="     Nessa fase, a criança pode demonstrar certa timidez ou até medo de estranhos. Esse tipo de nervosismo é bem normal, principalmente com pessoas que ela não conhece bem. Pense que seu filho está apenas mostrando que sabe a diferença entre quem conhece e quem não conhece, e que isso faz parte do desenvolvimento."
+                android:textAlignment="viewStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:lineSpacingExtra="2sp"
+                android:text="      Além de pessoas estranhas, seu filho pode começar a demonstrar medo de barulhos altos (do liquidificador ou do aspirador de pó, por exemplo), de água (da banheira, da piscina ou até da descarga do vaso sanitário) e de animais. Caso isso aconteça, respeite o medo dele, mesmo que isso signifique uns dias de 'banho de gato', e aos poucos vá promovendo maior convivência com o motivo do medo."
+                android:textAlignment="viewStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Comportamentos imprevisíveis"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:lineSpacingExtra="2sp"
+                android:text="        Ele está explorando o mundo, seus próprios órgãos e o poder que exerce sobre você. É assim que ele vai descobrir quais comportamentos são aceitáveis e quais não são.Você pode dar a ele uma chance de extravasar toda essa energia, como numa boa guerra de almofadas (leves, e num lugar onde não haja nada frágil). Massinha de modelar, de preferência antialérgica, é outro veículo possível para as explorações dele. De vez em quando, deixe-o brincar livremente na água: com uma bacia no quintal ou até dentro do box vale, sempre debaixo dos seus olhos atentos."
+                android:textAlignment="viewStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:lineSpacingExtra="2sp"
+                android:text="       Talvez a disposição para comer também seja afetada. Se ele comia bem as sopinhas e papinhas, agora pode começar a recusar a 'comida de gente grande' ou se tornar, de repente, mais seletivo. Fique calma, porque o apetite diminui mesmo um pouco nesta fase, muito porque seu filho está tão interessado em explorar o mundo que mal sobra tempo para pensar em se alimentar. E ele quer ter o poder de escolher o que vai comer."
+                android:textAlignment="viewStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
 
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

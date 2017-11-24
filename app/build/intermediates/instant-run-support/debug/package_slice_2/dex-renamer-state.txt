@@ -1,4 +1,4 @@
-#Thu Nov 23 09:59:33 BRST 2017
+#Fri Nov 24 09:31:59 BRST 2017
 base.0=C\:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
 file.0=C\:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

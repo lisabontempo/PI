@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86"
     api-level="25"
     build-mode="COLD"
-    density="xxhdpi"
+    density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1511438537964"
+    timestamp="1511523572278"
     token="529322520042798613"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,13 +23,9 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1511438369774"
+        timestamp="1511523114098"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -70,11 +66,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511438537964"
+        timestamp="1511523192252"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1511523572278"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
