@@ -20,6 +20,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="20dp"
             android:text="Seja bem vindo(a) ao PsicoBaby!"
+            android:textColor="#000"
             android:textAlignment="center"
             android:textSize="22sp"
             android:textStyle="bold"
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="Digite abaixo a idade em anos do seu bebê:"
+            android:textColor="#000"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold" />

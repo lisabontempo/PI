@@ -83,12 +83,12 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:lineSpacingExtra="2sp"
-                android:text="       Talvez a disposição para comer também seja afetada. Se ele comia bem as sopinhas e papinhas, agora pode começar a recusar a 'comida de gente grande' ou se tornar, de repente, mais seletivo. Fique calma, porque o apetite diminui mesmo um pouco nesta fase, muito porque seu filho está tão interessado em explorar o mundo que mal sobra tempo para pensar em se alimentar. E ele quer ter o poder de escolher o que vai comer."
+                android:text="       Talvez a disposição para comer também seja afetada. Se ele comia bem as sopinhas e papinhas, agora pode começar a recusar a 'comida de gente grande' ou se tornar, de repente, mais seletivo. Fique calmo(a), porque o apetite diminui mesmo um pouco nesta fase, muito porque seu filho está tão interessado em explorar o mundo que mal sobra tempo para pensar em se alimentar. E ele quer ter o poder de escolher o que vai comer."
                 android:textAlignment="viewStart"
                 android:textColor="#000"
                 android:textSize="12sp" />
 
-            
+
         </LinearLayout>
     </ScrollView>
 
