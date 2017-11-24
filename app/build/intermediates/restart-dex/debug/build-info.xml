@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1511366455214"
+    timestamp="1511438537964"
     token="529322520042798613"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,9 +23,13 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1511365977393"
+        timestamp="1511438369774"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -66,18 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511366416065"
+        timestamp="1511438537964"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1511366455214"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

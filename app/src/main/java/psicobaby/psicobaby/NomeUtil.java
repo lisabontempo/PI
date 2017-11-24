@@ -29,4 +29,16 @@ public class NomeUtil {
         retornoIdade = "Idade: "+numero;
         return retornoIdade;
     }
+
+    public static String ConvertAssunto(String assunto){
+        String retornoAssunto;
+        retornoAssunto = "Assunto do interesse: "+assunto;
+        return retornoAssunto;
+    }
+
+    public static String ConvertMes(String mes){
+        String retornoMes;
+        retornoMes = "Mês do aniversário: "+mes;
+        return retornoMes;
+    }
 }

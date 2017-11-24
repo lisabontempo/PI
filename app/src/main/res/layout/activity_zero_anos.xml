@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context="psicobaby.psicobaby.ZeroAnosActivity">
 
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
@@ -16,11 +21,113 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Zero anos!"
-            />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="MENOS DE 1 ANO"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Cuidados"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="      Os momentos de cuidar são excelentes oportunidades para a construção do vínculo afetivo."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="      Para que isso ocorra, as tarefas de cuidar não podem ser realizadas de maneira rápida e mecânica, ao contrário do que acontece em muitos espaços coletivos de bebês. A constância nos cuidados, assim como a regularidade de tempo e espaço criam o clima de confiança necessário para que a criança sinta segurança e possa participar desta relação e aproveitar a experiência."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="      Os estímulos táteis são acompanhados de falas com voz suave, explicando de forma clara e simples o que está se passando e antecipando o que vai acontecer a seguir."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="       Quando o adulto educador fala sobre a parte do corpo que está sendo tocada, ajuda o bebê a construir seu esquema corporal, que é a experiência imediata da unidade dos segmentos do corpo e a posição que se ocupa no espaço."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="       O esquema corporal é resultado da organização cognitiva e afetiva de cada pessoa e é construído e reconstruído pelas contínuas alterações da posição do corpo no espaço."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Início do aprendizado"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="2sp"
+            android:text="       Ainda no berço, a criança brinca com o próprio corpo: mãos, pés e a própria voz.  Ao armazenar sensações e informações colhidas na exploração do espaço e dos brinquedos, a criança constrói as bases necessárias para o desenvolvimento da capacidade de pensar. E assim, ela aprende a aprender."
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
 
 
     </LinearLayout>
+    </ScrollView>
+
+
 
 </android.support.constraint.ConstraintLayout>
+
+

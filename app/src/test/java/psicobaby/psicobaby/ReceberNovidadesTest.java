@@ -1,6 +1,7 @@
 package psicobaby.psicobaby;
 
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
 
 import static junit.framework.Assert.assertEquals;
 
@@ -41,5 +42,20 @@ public class ReceberNovidadesTest {
         assertEquals(NomeUtil.ConvertIdade(enviada), esperada);
     }
 
+    @Test
+    public void retornaAssunto(){
+        String enviada = "birras";
+        String esperada = "Assunto do interesse: birras";
+        NomeUtil nomeUtil = new NomeUtil();
+        assertEquals(NomeUtil.ConvertAssunto(enviada), esperada);
+    }
+
+    @Test
+    public  void retornaMes(){
+        String enviada = "Janeiro";
+        String esperada = "Mês do aniversário: Janeiro";
+        NomeUtil nomeUtil = new NomeUtil();
+        assertEquals(nomeUtil.ConvertMes(enviada), esperada);
+    }
 
 }
