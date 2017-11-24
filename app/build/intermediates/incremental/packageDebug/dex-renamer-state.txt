@@ -1,4 +1,4 @@
-#Mon Nov 20 16:29:16 BRST 2017
+#Tue Nov 21 14:36:53 BRST 2017
 base.0=C\:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c50173dfa540ee7f384b34272373b1d0b8252123
 renamed.1=classes2.dex
 renamed.0=classes.dex

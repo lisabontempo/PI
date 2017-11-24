@@ -2178,9 +2178,9 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b0042;
-        public static final int recebeDigiteEmail=0x7f0b0063;
-        public static final int recebeIdadeTelefone=0x7f0b0061;
+        public static final int recebeEmail=0x7f0b0063;
         public static final int recebeNome=0x7f0b005f;
+        public static final int recebeTelefone=0x7f0b0061;
         public static final int receberNovidades=0x7f0b005d;
         public static final int right_icon=0x7f0b0075;
         public static final int right_side=0x7f0b006e;

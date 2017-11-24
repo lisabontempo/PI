@@ -618,9 +618,9 @@ int id parentPanel 0x7f0b0032
 int id progress_circular 0x7f0b0006
 int id progress_horizontal 0x7f0b0007
 int id radio 0x7f0b0042
-int id recebeDigiteEmail 0x7f0b0063
-int id recebeIdadeTelefone 0x7f0b0061
+int id recebeEmail 0x7f0b0063
 int id recebeNome 0x7f0b005f
+int id recebeTelefone 0x7f0b0061
 int id receberNovidades 0x7f0b005d
 int id right_icon 0x7f0b0075
 int id right_side 0x7f0b006e

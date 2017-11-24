@@ -58,17 +58,6 @@ public class MainActivityTest {
 
 
 
-    @Test
-    public void retornaNome(){
-
-        String enviada = "Fernando";
-        String esperada = "Nome: Fernando";
-        ReceberNovidades m = new ReceberNovidades();
-
-
-
-        assertEquals(m.ConvertNome(enviada), esperada);
-    }
 
 
 }

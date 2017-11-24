@@ -1,15 +1,11 @@
 package psicobaby.psicobaby;
 
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity{
     public EditText edtIdade;
@@ -55,7 +51,7 @@ public class MainActivity extends AppCompatActivity{
             return "Idade não permitida";
     }
     public void receberNovidades(View view){
-        Intent intent0 = new Intent(getApplicationContext(), ReceberNovidades.class);
+        Intent intent0 = new Intent(getApplicationContext(), ReceberNovidadesActivity.class);
         startActivity(intent0);
 
     }

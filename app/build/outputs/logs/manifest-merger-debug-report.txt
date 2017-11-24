@@ -63,10 +63,10 @@ activity#psicobaby.psicobaby.DoisAnos
 ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:21:9-46
 	android:name
 		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:21:19-43
-activity#psicobaby.psicobaby.ReceberNovidades
-ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:9-54
+activity#psicobaby.psicobaby.ReceberNovidadesActivity
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:9-62
 	android:name
-		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:19-59
 uses-sdk
 INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:21:5-23:78
