@@ -1,18 +1,10 @@
 [
     {
-        "merged": "E:\\Faculdade\\Facul Fernando\\4 semestre\\PI\\14\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "E:\\Faculdade\\Facul Fernando\\4 semestre\\PI\\14\\PsicoBaby\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "E:\\Faculdade\\Facul Fernando\\4 semestre\\PI\\14\\PsicoBaby\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "E:\\Faculdade\\Facul Fernando\\4 semestre\\PI\\14\\PsicoBaby\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

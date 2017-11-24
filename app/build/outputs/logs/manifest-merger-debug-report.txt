@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 application
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Fernando\.android\build-cache\fe5f4b546e4515bea8ce8337d20ffeae564df651\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Fernando\.android\build-cache\2e5aa7c0f2756fa27f50c127e628116408a38ada\output\AndroidManifest.xml:29:5-20
@@ -26,49 +26,49 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Fernan
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Fernando\.android\build-cache\5fb1e048b43f1432d476240ce45be82f6c115e9a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\Fernando\.android\build-cache\c9693f8729c9e9492995d0d5ac7dbff4d8b23d47\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:8:9-34
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:8:9-34
 	android:supportsRtl
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:9:9-48
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:9:9-48
 	android:allowBackup
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:11:9-40
 activity#psicobaby.psicobaby.MainActivity
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:16:27-74
 activity#psicobaby.psicobaby.ZeroAnos
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:19:9-46
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:19:9-46
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:19:19-43
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:19:19-43
 activity#psicobaby.psicobaby.UmAno
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:20:9-43
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:20:9-43
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:20:19-40
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:20:19-40
 activity#psicobaby.psicobaby.DoisAnos
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:21:9-46
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:21:9-46
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:21:19-43
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:21:19-43
 activity#psicobaby.psicobaby.ReceberNovidades
-ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml:22:19-51
 uses-sdk
-INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Fernando\.android\build-cache\fe5f4b546e4515bea8ce8337d20ffeae564df651\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Fernando\.android\build-cache\2e5aa7c0f2756fa27f50c127e628116408a38ada\output\AndroidManifest.xml:21:5-23:60
@@ -82,11 +82,11 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\U
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Faculdade\Facul Fernando\4 semestre\PI\14\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Fernando\.android\build-cache\664c684da84a20b3fb2511c2f499d97db94a1454\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Fernando\.android\build-cache\fe5f4b546e4515bea8ce8337d20ffeae564df651\output\AndroidManifest.xml:25:5-27:34

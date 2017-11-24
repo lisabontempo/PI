@@ -18,7 +18,7 @@
             android:id="@+id/digiteNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DIGITE O SEU NOME:"
+            android:text="NOME:"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -26,12 +26,12 @@
             tools:layout_editor_absoluteY="77dp" />
 
         <EditText
-            android:id="@+id/recebeDigiteNome"
+            android:id="@+id/recebeNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Nome"
+            android:text="Digite seu nome"
             android:textAlignment="center"
             android:textSize="14sp"
             tools:layout_editor_absoluteX="16dp"
@@ -41,7 +41,7 @@
             android:id="@+id/digiteTelefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="DIGITE O SEU NOME:"
+            android:text="TELEFONE:"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -54,7 +54,30 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Nome"
+            android:text="Digite seu telefone de contato"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/digiteEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-MAIL"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <EditText
+            android:id="@+id/recebeDigiteEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Digite o seu e-mail"
             android:textAlignment="center"
             android:textSize="14sp"
             tools:layout_editor_absoluteX="16dp"

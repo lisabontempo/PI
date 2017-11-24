@@ -6,23 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1511197221527"
+    timestamp="1511202553471"
     token="529322520042798613"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="247" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="35" />
     <task
         name="verifier"
-        duration="0" />
+        duration="15" />
 
+    <artifact
+        location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -31,9 +34,6 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -62,8 +62,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1511197221527"
+        timestamp="1511202553471"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -72,9 +75,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Fernando\AndroidStudioProjects\PsicoBaby\app\build\intermediates\split-apk\debug\slices\slice_9.apk"

@@ -1,5 +1,7 @@
 package psicobaby.psicobaby;
 
+import android.widget.EditText;
+
 import junit.framework.Assert;
 
 import org.junit.Test;
@@ -50,6 +52,22 @@ public class MainActivityTest {
 
         assertEquals(retornada, esperada);
 
+    }
+
+
+
+
+
+    @Test
+    public void retornaNome(){
+
+        String enviada = "Fernando";
+        String esperada = "Nome: Fernando";
+        ReceberNovidades m = new ReceberNovidades();
+
+
+
+        assertEquals(m.ConvertNome(enviada), esperada);
     }
 
 

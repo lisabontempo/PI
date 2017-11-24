@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 20 15:00:23 BRST 2017
+#Mon Nov 20 16:29:15 BRST 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Fernando\\AndroidStudioProjects\\PsicoBaby\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\support_simple_spinner_dropdown_item.xml
 118.set=ANDROID_RESOURCE
