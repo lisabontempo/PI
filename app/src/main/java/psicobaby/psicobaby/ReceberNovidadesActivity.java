@@ -11,11 +11,13 @@ public class ReceberNovidadesActivity extends AppCompatActivity {
     public EditText recebeNome;
     public EditText recebeTelefone;
     public EditText recebeEmail;
+    public EditText recebeIdade;
 
 
     public String nome;
     public String telefone;
     public String email;
+    public String idade;
 
     @Override
 
@@ -25,9 +27,12 @@ public class ReceberNovidadesActivity extends AppCompatActivity {
         recebeNome = (EditText) findViewById(R.id.recebeNome);
         recebeTelefone = (EditText) findViewById(R.id.recebeTelefone);
         recebeEmail = (EditText) findViewById(R.id.recebeEmail);
+        recebeIdade = (EditText) findViewById(R.id.recebeIdade);
         NomeUtil nomeUtil = new  NomeUtil();
         nome = nomeUtil.ConvertNome(recebeNome.getText().toString());
         telefone = nomeUtil.ConvertTelefone(recebeTelefone.getText().toString());
+        email = nomeUtil.ConvertEmail(recebeEmail.getText().toString());
+        idade = nomeUtil.ConvertIdade(recebeIdade.getText().toString());
 
 
     }

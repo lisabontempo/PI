@@ -26,9 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="psicobaby.psicobaby.ZeroAnos" />
-        <activity android:name="psicobaby.psicobaby.UmAno" />
-        <activity android:name="psicobaby.psicobaby.DoisAnos" />
+        <activity android:name="psicobaby.psicobaby.ZeroAnosActivity" />
+        <activity android:name="psicobaby.psicobaby.UmAnoActivity" />
+        <activity android:name="psicobaby.psicobaby.DoisAnosActivity" />
         <activity android:name="psicobaby.psicobaby.ReceberNovidadesActivity" />
 
         <provider

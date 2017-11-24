@@ -33,7 +33,13 @@ public class ReceberNovidadesTest {
         assertEquals(NomeUtil.ConvertEmail(enviada), esperada);
     }
 
-
+    @Test
+    public void retornaIdade(){
+        String enviada = "1";
+        String esperada = "Idade: 1";
+        NomeUtil nomeUtil = new NomeUtil();
+        assertEquals(NomeUtil.ConvertIdade(enviada), esperada);
+    }
 
 
 }
